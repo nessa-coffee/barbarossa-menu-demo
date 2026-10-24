@@ -1,0 +1,502 @@
+[
+  {
+    "id": "nat-burger",
+    "category": "Фаст-фуд",
+    "name": "Nat burger",
+    "price": 350,
+    "description": "Сочная говяжья котлета, свежие овощи, ароматный соус и тянущийся сыр в мягкой булочке. Классика, которая всегда на высоте!",
+    "image": "assets/menu/nat-burger.jpg"
+  },
+  {
+    "id": "double-nat-burger",
+    "category": "Фаст-фуд",
+    "name": "Двойной Nat burger",
+    "price": 450,
+    "description": "Двойная порция сочного мяса, ещё больше сыра и свежих ингредиентов. Для тех, кто любит бургеры по-настоящему мощными!",
+    "image": "assets/menu/double-nat-burger.jpg"
+  },
+  {
+    "id": "chicken-nat-burger",
+    "category": "Фаст-фуд",
+    "name": "Chicken Nat burger",
+    "price": 350,
+    "description": "Куриная котлета, свежий салат, нежный соус и воздушная булочка. Идеальный баланс хруста, сочности и вкуса!",
+    "image": "assets/menu/chicken-nat-burger.jpg"
+  },
+  {
+    "id": "nuggets",
+    "category": "Фаст-фуд",
+    "name": "Наггетсы, 8 шт.",
+    "price": 220,
+    "description": "Золотистые кусочки куриного филе в ароматной панировке — идеальная закуска к любому столу",
+    "image": "assets/menu/nuggets.jpg"
+  },
+  {
+    "id": "cheese-sticks",
+    "category": "Фаст-фуд",
+    "name": "Сырные палочки, 6 шт.",
+    "price": 220,
+    "description": "Тянущийся сыр в хрустящей золотистой корочке",
+    "image": "assets/menu/cheese-sticks.jpg"
+  },
+  {
+    "id": "wings",
+    "category": "Фаст-фуд",
+    "name": "Крылышки, 6 шт.",
+    "price": 250,
+    "description": "Аппетитные куриные крылышки, пропитанные специями",
+    "image": "assets/menu/wings.jpg"
+  },
+  {
+    "id": "hot-dog",
+    "category": "Фаст-фуд",
+    "name": "Хот Дог",
+    "price": 150,
+    "description": "",
+    "image": "assets/menu/hot-dog.jpg"
+  },
+  {
+    "id": "mini-burger",
+    "category": "Фаст-фуд",
+    "name": "Мини бургер",
+    "price": 250,
+    "description": "",
+    "image": "assets/menu/mini-burger.jpg"
+  },
+  {
+    "id": "chicken-fit-steak",
+    "category": "Горячие блюда",
+    "name": "Куриный ПП стейк",
+    "price": 420,
+    "description": "Куриное филе, обжаренное без лишнего масла, с ароматными специями. Лёгкий, идеально сбалансированный вкус для правильного питания!",
+    "image": "assets/menu/chicken-fit-steak.jpg"
+  },
+  {
+    "id": "fettuccine",
+    "category": "Горячие блюда",
+    "name": "Фетучини",
+    "variants": [
+      {
+        "id": "cream",
+        "name": "Сливочный соус",
+        "price": 420
+      },
+      {
+        "id": "cheese",
+        "name": "Сырный соус",
+        "price": 420
+      },
+      {
+        "id": "mushroom",
+        "name": "Грибной соус",
+        "price": 420
+      }
+    ],
+    "description": "Итальянская паста в сливочном, сырном или грибном соусе. Лёгкая, шелковистая и невероятно вкусная!",
+    "image": "assets/menu/fettuccine.jpg"
+  },
+  {
+    "id": "french-meat",
+    "category": "Горячие блюда",
+    "name": "Мясо по-французски",
+    "price": 420,
+    "description": "Сочные кусочки мяса и грибов, запечённые под слоем сыра, майонеза и лука. Просто тает во рту!",
+    "image": "assets/menu/french-meat.jpg"
+  },
+  {
+    "id": "charcoal-chicken",
+    "category": "Горячие блюда",
+    "name": "Курица на углях",
+    "variants": [
+      {
+        "id": "portion-1",
+        "name": "Порция 1 [ПРОВЕРИТЬ]",
+        "price": 650
+      },
+      {
+        "id": "portion-2",
+        "name": "Порция 2 [ПРОВЕРИТЬ]",
+        "price": 850
+      }
+    ],
+    "description": "Куриное филе, замаринованное в ароматных специях и запечённое на углях до аппетитной румяности",
+    "image": "assets/menu/charcoal-chicken.jpg"
+  },
+  {
+    "id": "steaks",
+    "category": "Горячие блюда",
+    "name": "Стейки",
+    "variants": [
+      {
+        "id": "variant-1",
+        "name": "Вариант 1 [ПРОВЕРИТЬ]",
+        "price": 850
+      },
+      {
+        "id": "variant-2",
+        "name": "Вариант 2 [ПРОВЕРИТЬ]",
+        "price": 950
+      },
+      {
+        "id": "variant-3",
+        "name": "Вариант 3 [ПРОВЕРИТЬ]",
+        "price": 1050
+      }
+    ],
+    "description": "Идеально прожаренный сочный кусок мяса с хрустящей корочкой и насыщенным вкусом. Минимум приправ, максимум удовольствия!",
+    "image": "assets/menu/steaks.jpg"
+  },
+  {
+    "id": "creamy-chicken-steak",
+    "category": "Горячие блюда",
+    "name": "Стейк куриный в сливочном соусе",
+    "price": 450,
+    "description": "Нежное куриное филе, обжаренное на сковороде и покрытое густым сливочным соусом. Ты должен это попробовать!",
+    "image": "assets/menu/creamy-chicken-steak.jpg"
+  },
+  {
+    "id": "business-lunch",
+    "category": "Горячие блюда",
+    "name": "Бизнес-ланч",
+    "price": 350,
+    "description": "Люля, картофель фри, соус",
+    "image": "assets/menu/business-lunch.jpg"
+  },
+  {
+    "id": "thai-meat",
+    "category": "Горячие блюда",
+    "name": "Мясо по-тайски",
+    "price": 420,
+    "description": "Кусочки мяса с хрустящими овощами в пикантном соусе. Вкус, который сам говорит за себя!",
+    "image": "assets/menu/thai-meat.jpg"
+  },
+  {
+    "id": "pizza-pepperoni",
+    "category": "Пиццы",
+    "name": "Пепперони",
+    "price": 450,
+    "description": "Колбаса пепперони",
+    "image": "assets/menu/pizza-pepperoni.jpg"
+  },
+  {
+    "id": "pizza-assorted",
+    "category": "Пиццы",
+    "name": "Ассорти",
+    "price": 450,
+    "description": "Идеальное сочетание разных начинок: мясо, грибы, овощи и много тянущегося сыра. В каждом кусочке — новый вкус!",
+    "image": "assets/menu/pizza-assorted.jpg"
+  },
+  {
+    "id": "pizza-mexican",
+    "category": "Пиццы",
+    "name": "Мексиканская",
+    "price": 450,
+    "description": "Хрустящее тесто, пряный соус, мясо, острый кетчуп и сыр. Яркий, огненный вкус с настоящим мексиканским характером!",
+    "image": "assets/menu/pizza-mexican.jpg"
+  },
+  {
+    "id": "pizza-chicken",
+    "category": "Пиццы",
+    "name": "Куриная",
+    "price": 450,
+    "description": "",
+    "image": "assets/menu/pizza-chicken.jpg"
+  },
+  {
+    "id": "pizza-mushroom",
+    "category": "Пиццы",
+    "name": "Грибная",
+    "price": 450,
+    "description": "",
+    "image": "assets/menu/pizza-mushroom.jpg"
+  },
+  {
+    "id": "pizza-cheese",
+    "category": "Пиццы",
+    "name": "Сырная",
+    "price": 450,
+    "description": "",
+    "image": "assets/menu/pizza-cheese.jpg"
+  },
+  {
+    "id": "pizza-caesar",
+    "category": "Пиццы",
+    "name": "Юлий цезарь",
+    "price": 450,
+    "description": "",
+    "image": "assets/menu/pizza-caesar.jpg"
+  },
+  {
+    "id": "pizza-meat",
+    "category": "Пиццы",
+    "name": "Мясная",
+    "price": 450,
+    "description": "",
+    "image": "assets/menu/pizza-meat.jpg"
+  },
+  {
+    "id": "khachapuri",
+    "category": "Национальная кухня",
+    "name": "Хачапури по-аджарски",
+    "price": 300,
+    "description": "Лодочка из теста с сыром и яйцом, на газетной бумаге, зелень, помидор",
+    "image": "assets/menu/khachapuri.jpg"
+  },
+  {
+    "id": "austrian-breakfast",
+    "category": "Завтраки",
+    "name": "Австрийский завтрак",
+    "price": 350,
+    "description": "",
+    "image": "assets/menu/austrian-breakfast.jpg"
+  },
+  {
+    "id": "bavarian-breakfast",
+    "category": "Завтраки",
+    "name": "Баварский завтрак",
+    "price": 300,
+    "description": "",
+    "image": "assets/menu/bavarian-breakfast.svg"
+  },
+  {
+    "id": "gyro-plate",
+    "category": "Гиро",
+    "name": "Гиро на тарелке",
+    "price": 350,
+    "description": "",
+    "image": "assets/menu/gyro-plate.jpg"
+  },
+  {
+    "id": "gyro-mix",
+    "category": "Гиро",
+    "name": "Гиро Микс",
+    "price": 200,
+    "description": "В лепёшке на гриле, картофель фри, огурец, помидор",
+    "image": "assets/menu/gyro-mix.jpg"
+  },
+  {
+    "id": "gyro-original",
+    "category": "Гиро",
+    "name": "Гиро Оригинал",
+    "price": 200,
+    "description": "",
+    "image": "assets/menu/gyro-original.svg"
+  },
+  {
+    "id": "philadelphia",
+    "category": "Японская кухня",
+    "name": "Филадельфия",
+    "price": 400,
+    "description": "Ролл на тёмной сланцевой доске, имбирь, васаби, соевый соус",
+    "image": "assets/menu/philadelphia.svg"
+  },
+  {
+    "id": "california",
+    "category": "Японская кухня",
+    "name": "Калифорния",
+    "price": 400,
+    "description": "Легендарный ролл с нежным крабом, авокадо и икрой тобико",
+    "image": "assets/menu/california.svg"
+  },
+  {
+    "id": "hot-chic",
+    "category": "Японская кухня",
+    "name": "Горячий шик",
+    "price": 400,
+    "description": "Хрустящий запечённый ролл с нежной начинкой, обволакивающей сливочным вкусом",
+    "image": "assets/menu/hot-chic.jpg"
+  },
+  {
+    "id": "fresh-salad",
+    "category": "Салаты",
+    "name": "Свежий салат",
+    "price": 220,
+    "description": "Огурцы, помидоры, лук, зелень",
+    "image": "assets/menu/fresh-salad.svg"
+  },
+  {
+    "id": "greek-salad",
+    "category": "Салаты",
+    "name": "Греческий салат",
+    "price": 280,
+    "description": "Фета, красный лук, маслины, салатные листья",
+    "image": "assets/menu/greek-salad.svg"
+  },
+  {
+    "id": "sliced-platter",
+    "category": "Салаты",
+    "name": "Нарезка",
+    "price": 400,
+    "description": "",
+    "image": "assets/menu/sliced-platter.svg"
+  },
+  {
+    "id": "caesar-salad",
+    "category": "Салаты",
+    "name": "Цезарь",
+    "variants": [
+      {
+        "id": "shrimp",
+        "name": "С креветкой",
+        "price": 340
+      },
+      {
+        "id": "chicken",
+        "name": "С курицей",
+        "price": 340
+      }
+    ],
+    "description": "Выберите добавку: с креветкой или с курицей.",
+    "image": "assets/menu/caesar-salad.svg"
+  },
+  {
+    "id": "red-onion",
+    "category": "Салаты",
+    "name": "Лук красный",
+    "price": 50,
+    "description": "",
+    "image": "assets/menu/red-onion.svg"
+  },
+  {
+    "id": "white-onion",
+    "category": "Салаты",
+    "name": "Лук белый",
+    "price": 30,
+    "description": "",
+    "image": "assets/menu/white-onion.svg"
+  },
+  {
+    "id": "green-pepper",
+    "category": "Салаты",
+    "name": "Перец зелёный",
+    "price": 20,
+    "description": "",
+    "image": "assets/menu/green-pepper.svg"
+  },
+  {
+    "id": "fries",
+    "category": "Гарниры",
+    "name": "Картофель фри",
+    "price": 160,
+    "description": "",
+    "image": "assets/menu/fries.svg"
+  },
+  {
+    "id": "potato-wedges",
+    "category": "Гарниры",
+    "name": "Картофель по-деревенски",
+    "price": 160,
+    "description": "",
+    "image": "assets/menu/potato-wedges.svg"
+  },
+  {
+    "id": "grilled-vegetables",
+    "category": "Гарниры",
+    "name": "Овощи на углях",
+    "price": 280,
+    "description": "",
+    "image": "assets/menu/grilled-vegetables.svg"
+  },
+  {
+    "id": "grilled-mushrooms",
+    "category": "Гарниры",
+    "name": "Грибы на мангале",
+    "price": 280,
+    "description": "",
+    "image": "assets/menu/grilled-mushrooms.svg"
+  },
+  {
+    "id": "arabic-rice",
+    "category": "Гарниры",
+    "name": "Рис по-арабски",
+    "price": 150,
+    "description": "",
+    "image": "assets/menu/arabic-rice.svg"
+  },
+  {
+    "id": "sauce-white",
+    "category": "Соусы",
+    "name": "Белый (фирменный)",
+    "price": 50,
+    "description": "",
+    "image": "assets/menu/sauce-white.svg"
+  },
+  {
+    "id": "sauce-cheese",
+    "category": "Соусы",
+    "name": "Сырный",
+    "price": 50,
+    "description": "",
+    "image": "assets/menu/sauce-cheese.svg"
+  },
+  {
+    "id": "sauce-tomato",
+    "category": "Соусы",
+    "name": "Томатный",
+    "price": 50,
+    "description": "",
+    "image": "assets/menu/sauce-tomato.svg"
+  },
+  {
+    "id": "sauce-sweet-sour",
+    "category": "Соусы",
+    "name": "Кисло-сладкий",
+    "price": 50,
+    "description": "",
+    "image": "assets/menu/sauce-sweet-sour.svg"
+  },
+  {
+    "id": "tea",
+    "category": "Напитки",
+    "name": "Чай",
+    "price": "[ЦЕНА]",
+    "description": "[ДЕМО] Заменить или удалить перед приёмом заказов.",
+    "image": "assets/menu/tea.svg",
+    "demo": true
+  },
+  {
+    "id": "coffee",
+    "category": "Напитки",
+    "name": "Кофе",
+    "price": "[ЦЕНА]",
+    "description": "[ДЕМО] Заменить или удалить перед приёмом заказов.",
+    "image": "assets/menu/coffee.svg",
+    "demo": true
+  },
+  {
+    "id": "lemonade",
+    "category": "Напитки",
+    "name": "Лимонад",
+    "price": "[ЦЕНА]",
+    "description": "[ДЕМО] Заменить или удалить перед приёмом заказов.",
+    "image": "assets/menu/lemonade.svg",
+    "demo": true
+  },
+  {
+    "id": "berry-drink",
+    "category": "Напитки",
+    "name": "Морс",
+    "price": "[ЦЕНА]",
+    "description": "[ДЕМО] Заменить или удалить перед приёмом заказов.",
+    "image": "assets/menu/berry-drink.svg",
+    "demo": true
+  },
+  {
+    "id": "juice",
+    "category": "Напитки",
+    "name": "Сок",
+    "price": "[ЦЕНА]",
+    "description": "[ДЕМО] Заменить или удалить перед приёмом заказов.",
+    "image": "assets/menu/juice.svg",
+    "demo": true
+  },
+  {
+    "id": "water",
+    "category": "Напитки",
+    "name": "Вода",
+    "price": "[ЦЕНА]",
+    "description": "[ДЕМО] Заменить или удалить перед приёмом заказов.",
+    "image": "assets/menu/water.svg",
+    "demo": true
+  }
+]

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4efe3">
+  <meta name="description" content="Меню кафе Барбаросса: бургеры, горячие блюда, пицца, роллы и любимые гарниры. Соберите свой заказ.">
+  <title>Барбаросса — меню кафе</title>
+  <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
+  <link rel="stylesheet" href="styles.css?v=20261023-4">
+  <script src="config.js?v=20261023-4" defer></script>
+  <script src="script.js?v=20261023-4" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Перейти к меню</a>
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="./" class="brand" aria-label="Барбаросса — всё меню"><img src="assets/logo.svg" width="292" height="64" alt="BARBAROSSA"></a>
+      <div class="header-meta">КАФЕ · МЕНЮ</div>
+      <nav class="header-actions" aria-label="Контакты и навигация">
+        <a class="icon-button social" href="#" data-social="whatsapp" aria-label="WhatsApp кафе"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.8a8.5 8.5 0 0 1-12.7 7.4L3 20.5l1.3-4.6a8.5 8.5 0 1 1 16.2-4.1Z"/><path d="M8.1 7.8c-.7.6-.6 2 .5 3.8 1.3 2 3.4 3.6 5.1 3.5 1.2 0 1.9-.8 2-1.4l-2.3-1.2-.9 1c-1.4-.6-2.4-1.5-3-2.8l.8-1.1-1.1-2.2Z"/></svg></a>
+        <a class="icon-button social" href="#" data-social="instagram" aria-label="Instagram кафе"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.8"/><circle class="fill" cx="17" cy="7.2" r="1"/></svg></a>
+        <button class="icon-button burger" data-action="menu" aria-label="Открыть разделы меню" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+      </nav>
+    </div>
+  </header>
+  <div class="menu-bar" id="menu-bar">
+    <div class="menu-bar-inner">
+      <div class="tools">
+        <button class="icon-button outlined" data-action="filters" aria-label="Фильтры" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h6m4 0h6M4 12h10m4 0h2M4 18h2m4 0h10M10 3v6m4 0v6M6 15v6"/></svg><span class="filter-dot" hidden></span></button>
+        <button class="icon-button outlined" data-action="search" aria-label="Поиск по названию" aria-expanded="false" aria-controls="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.7" cy="10.7" r="6.7"/><path d="m16 16 5 5"/></svg></button>
+      </div>
+      <nav class="category-scroll" id="categories" aria-label="Категории блюд"></nav>
+    </div>
+    <div class="search-box" id="search-box" hidden>
+      <label class="sr-only" for="search">Название блюда</label>
+      <input type="search" id="search" placeholder="Найти любимое блюдо…" autocomplete="off">
+      <button class="text-button" data-action="clear-search">Сбросить</button>
+    </div>
+  </div>
+  <main class="main" id="menu" tabindex="-1">
+    <div class="menu-heading"><h1 id="section-title">Всё меню<span class="heading-dot">.</span></h1><span class="result-count" id="result-count" aria-live="polite">Загружаем меню</span></div>
+    <div class="dish-grid" id="dish-grid" aria-busy="true"></div>
+    <div class="empty-state" id="empty-state" hidden><span class="empty-symbol">⌕</span><h2>Ничего не нашлось</h2><p>Попробуйте другое название или сбросьте фильтры.</p><button class="primary-button" data-action="reset-filters">Показать всё меню</button></div>
+    <div class="load-error" id="load-error" hidden><h2>Меню не загрузилось</h2><p>Проверьте соединение и попробуйте ещё раз.</p><button class="primary-button" data-action="reload">Повторить</button></div>
+    <footer class="footer"><span>BARBAROSSA</span><button class="text-button" data-action="about">О кафе</button><small>Фотографии — иллюстрация подачи.</small></footer>
+  </main>
+  <button class="floating-order" data-action="cart" aria-haspopup="dialog"><span class="order-dot" hidden></span><span>Ваш заказ</span><span class="order-total" hidden></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></button>
+  <dialog id="panel" class="panel" aria-labelledby="panel-title"><div id="panel-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Для меню и корзины включите JavaScript в браузере.</p></noscript>
+</body>
+</html>
